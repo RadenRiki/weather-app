@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: #f0f2f5;
+}
+
+.weather-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-detail {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.weather-detail img {
+  width: 100px;
+  height: 100px;
+}
+
+.error {
+  color: #dc3545;
+  padding: 10px;
+  background: #f8d7da;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.loading {
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* src/App.css */
+
+/* Leaflet Map Styling */
+.leaflet-container {
+  width: 100%;
+  height: 400px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Layer Selector */
+.layer-selector {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.layer-selector button {
+  display: block;
+  margin: 5px 0;
+  padding: 5px 10px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.layer-selector button.active {
+  background: #007bff;
+  color: white;
+}
+
+/* Forecast Styling */
+.forecast {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.forecast-item {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.forecast-item:hover {
+  transform: translateY(-3px);
+}
+
+/* Search Form */
+.search-form {
+  margin-bottom: 25px;
+}
+
+.search-form input {
+  padding: 12px;
+  width: 250px;
+  border: 2px solid #e0e0e0;
+  border-radius: 25px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.search-form button {
+  padding: 12px 25px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-form button:hover {
+  background: #0056b3;
+}
